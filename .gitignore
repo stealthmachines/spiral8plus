@@ -1,6 +1,19 @@
 # Human Genome Visualization - Git Ignore Rules
 
-# Genome data files (large, not our property, should be downloaded)
+# === LARGE FILES (>40MB) - NEVER COMMIT ===
+# All zip files larger than 40MB (40,000 KB) - EXCLUDE ALL
+*.zip
+# Re-include small zip files if needed (but generally avoid)
+!*.zip
+# Exclude all large archives
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.bz2
+
+# === GENOME DATA FILES (large, not our property) ===
+# Genome sequence files
 data/
 *.fasta
 *.fasta.gz
@@ -11,29 +24,71 @@ data/
 *.gb
 *.gbk
 *.genbank
+*.gff
+*.gff3
+*.gtf
+*.vcf
+*.vcf.gz
+*.bcf
+*.sam
+*.bam
+*.bam.bai
+*.cram
+*.bigwig
+*.bigbed
+*.2bit
+*.maf
+*.hal
 
-# NCBI dataset downloads
+# NCBI dataset downloads and directories
 ncbi_dataset/
 *_genome.zip
 *_genome/
+day2-ecoli.zip
+ncbi_dataset_wuhan*.zip
+advanced-spiral-8*.zip
 
-# Compiled C extensions and build artifacts
+# === COMPILED BINARIES AND BUILD ARTIFACTS ===
 *.dll
 *.so
 *.dylib
 *.pyd
+*.exe
 dna_engine.dll
 dna_engine_v2.dll
 dna_engine_v3.dll
+fasta_dna_unified_v1.exe
 build/
 dist/
 *.egg-info/
+*.whl
 
+# === LARGE DATA FILES (>100MB should never be committed) ===
+# Any file larger than 100MB
+*.bam
+*.sam
+*.vcf
+*.bcf
+*.cram
+*.bigwig
+*.bigbed
+*.fastq
+*.fasta
+# Temporary data files
+*.tmp
+*.temp
+*.cache
+*.log
+
+# === PYTHON AND DEVELOPMENT ===
 # Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
 
 # IDE and editor files
 .vscode/
@@ -41,6 +96,9 @@ __pycache__/
 *.swp
 *.swo
 *~
+.project
+.pydevproject
+.settings/
 
 # OS generated files
 .DS_Store
@@ -50,24 +108,9 @@ __pycache__/
 .Trashes
 ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# Temporary files
-*.tmp
-*.temp
-*.log
-*.cache
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Environment files (may contain sensitive info)
-.env
-.venv/
-env/
-ENV/
-venv/
-.conda/
-
+# === TESTING AND OUTPUT ===
 # Test outputs and screenshots
 test_output/
 screenshots/
@@ -75,22 +118,36 @@ screenshots/
 *.jpg
 *.jpeg
 *.gif
+*.svg
+frames/
+mapping_results/
+spiral_output.csv
+spiral_output_bench.csv
+test_results.json
 
-# Documentation build artifacts
-docs/_build/
-*.pdf
-*.html
-
-# Backup files
+# === BACKUP AND TEMPORARY ===
 *.bak
 *.backup
 *.orig
+*.rej
+*~
 
-# Large data files (any file over 100MB should not be committed)
-*.bam
-*.sam
-*.vcf
-*.bcf
-*.cram
-*.bigwig
-*.bigbed
+# === SPECIFIC LARGE FILES IN THIS PROJECT ===
+# Exclude any existing large zip files
+*.zip
+# Exclude data directories
+bigG/
+fudge10/
+hdgl_analog_v30_c_so/
+hdgl_harmonics_spiral10000_analog_v30/
+micro-bot-digest/
+tcc/
+
+# === ENVIRONMENT AND SENSITIVE DATA ===
+.env
+.venv/
+env/
+ENV/
+venv/
+.conda/
+conda-env/
