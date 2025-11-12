@@ -1,0 +1,10 @@
+LIBRARY dna_engine_v3_pure_fasta.dll
+
+EXPORTS
+cleanup_engine
+get_core_radius
+get_frame_data
+get_genome_length
+get_max_cells
+get_points_per_frame
+init_engine

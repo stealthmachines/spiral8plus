@@ -1,0 +1,14 @@
+LIBRARY dna_engine_v2.dll
+
+EXPORTS
+cleanup_engine
+create_daughter_cell
+get_camera_state
+get_frame_data
+get_gc_content
+get_genome_length
+get_genome_name
+get_num_cells
+get_shannon_entropy
+init_engine
+should_divide
