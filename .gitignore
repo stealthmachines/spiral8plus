@@ -1,0 +1,96 @@
+# Human Genome Visualization - Git Ignore Rules
+
+# Genome data files (large, not our property, should be downloaded)
+data/
+*.fasta
+*.fasta.gz
+*.fa
+*.fa.gz
+*.fastq
+*.fastq.gz
+*.gb
+*.gbk
+*.genbank
+
+# NCBI dataset downloads
+ncbi_dataset/
+*_genome.zip
+*_genome/
+
+# Compiled C extensions and build artifacts
+*.dll
+*.so
+*.dylib
+*.pyd
+dna_engine.dll
+dna_engine_v2.dll
+dna_engine_v3.dll
+build/
+dist/
+*.egg-info/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files (may contain sensitive info)
+.env
+.venv/
+env/
+ENV/
+venv/
+.conda/
+
+# Test outputs and screenshots
+test_output/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Documentation build artifacts
+docs/_build/
+*.pdf
+*.html
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Large data files (any file over 100MB should not be committed)
+*.bam
+*.sam
+*.vcf
+*.bcf
+*.cram
+*.bigwig
+*.bigbed
