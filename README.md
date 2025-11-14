@@ -50,6 +50,7 @@ pip install biopython
 **⚠️ Important**: Genome data files are large and cannot be included in the repository.  You will need to download the FASTA or FNA files separately and place them in your data folder (see the file structure below, for example):
 
 E. Coli - [https://www.ncbi.nlm.nih.gov/nuccore/NC_000913.3?report=fasta](https://www.ncbi.nlm.nih.gov/nuccore/NC_000913.3?report=fasta)
+
 Human - [https://www.ncbi.nlm.nih.gov/nuccore/HQ287898.1?report=fasta](https://www.ncbi.nlm.nih.gov/nuccore/HQ287898.1?report=fasta)
 
 ### 4. Run Visualizations
