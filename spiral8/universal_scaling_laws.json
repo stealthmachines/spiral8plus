@@ -1,0 +1,27 @@
+{
+  "universal_principle": "P(M) = \u03b1 \u00d7 log\u2081\u2080(M/M\u2609) + P\u2080",
+  "scaling_rates": {
+    "complexity_growth_\u03b1_n": 0.01526880229997559,
+    "scaling_enhancement_\u03b1_\u03b2": 0.008262064909643842,
+    "coupling_amplification_\u03b1_\u03a9": 0.11064881418434773,
+    "power_softening_\u03b1_k": -0.08348524118284452
+  },
+  "reference_values": {
+    "n\u2080": 1.628349821996575,
+    "\u03b2\u2080": 0.6357254444929918,
+    "\u03a9\u2080": 1.7784732000943773,
+    "k\u2080": 0.8810425915446191
+  },
+  "accuracy": {
+    "n": 0.9977275432534579,
+    "beta": 0.9967990421637228,
+    "Omega": 0.9979915129667786,
+    "k": 0.9996387022289209
+  },
+  "physical_interpretation": {
+    "n": "Complexity parameter - grows logarithmically with mass",
+    "beta": "Scaling exponent - enhances with system size",
+    "Omega": "Coupling strength - amplifies dramatically with scale",
+    "k": "Power law - softens at larger scales"
+  }
+}

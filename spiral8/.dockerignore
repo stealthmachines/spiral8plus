@@ -1,0 +1,66 @@
+# Docker ignore file for GUT testing environment
+# ===============================================
+
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+
+# Zip archives (already extracted)
+*.zip
+
+# Output directories (mounted as volumes)
+output/
+plots/
+logs/
+ligo_data/
+
+# Large data files (use volumes instead)
+# Keep only essential data for image
+
+# Documentation (keep only essential)
+*.md
+!GUT_README.md
+!GUT_SUMMARY.md
+!GUT_COMPLETE.md
+!physics.md
+
+# Test files
+test_*.py
+*_test.py
+
+# Workspace files
+*.code-workspace

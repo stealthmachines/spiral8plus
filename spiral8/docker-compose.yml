@@ -1,0 +1,99 @@
+# Docker Compose for Grand Unified Theory Testing
+# ================================================
+# Orchestrates multi-container testing environment
+
+version: '3.8'
+
+services:
+  # Main testing environment
+  gut-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gut-testing:latest
+    container_name: gut-test-main
+    volumes:
+      # Mount local data (for updates without rebuild)
+      - ./bigG:/gut/bigG:ro
+      - ./micro-bot-digest:/gut/micro-bot-digest:ro
+      - ./hdgl_harmonics_spiral10000_analog_v30:/gut/hdgl_harmonics_spiral10000_analog_v30:ro
+      # Output directories (writable)
+      - ./output:/gut/output
+      - ./plots:/gut/plots
+      - ./logs:/gut/logs
+      - ./ligo_data:/gut/ligo_data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - GUT_LOG_LEVEL=INFO
+      - GUT_PRECISION=high
+    command: python grand_unified_theory.py
+    networks:
+      - gut-net
+
+  # Interactive demo service
+  gut-demo:
+    image: gut-testing:latest
+    container_name: gut-demo
+    volumes:
+      - ./output:/gut/output
+      - ./plots:/gut/plots
+    command: python gut_demo.py
+    networks:
+      - gut-net
+    depends_on:
+      - gut-test
+
+  # Data analysis service
+  gut-analysis:
+    image: gut-testing:latest
+    container_name: gut-analysis
+    volumes:
+      - ./bigG:/gut/bigG:ro
+      - ./ligo_data:/gut/ligo_data:ro
+      - ./output:/gut/output
+      - ./plots:/gut/plots
+    environment:
+      - GUT_ANALYSIS_MODE=full
+      - GUT_PLOT_FORMAT=png
+    command: python gut_data_analysis.py
+    networks:
+      - gut-net
+    depends_on:
+      - gut-test
+
+  # C precision engine service
+  gut-c-engine:
+    image: gut-testing:latest
+    container_name: gut-c-engine
+    volumes:
+      - ./output:/gut/output
+    command: gut_engine validate-all
+    networks:
+      - gut-net
+
+  # Jupyter notebook interface (optional)
+  gut-notebook:
+    image: jupyter/scipy-notebook:latest
+    container_name: gut-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    networks:
+      - gut-net
+    profiles:
+      - interactive
+
+networks:
+  gut-net:
+    driver: bridge
+
+volumes:
+  gut-output:
+    driver: local
+  gut-plots:
+    driver: local
+  gut-logs:
+    driver: local

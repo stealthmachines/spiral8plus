@@ -1,0 +1,33 @@
+{
+  "GW": {
+    "n": 1.4115907517738528,
+    "beta": 0.42027553987854077,
+    "Omega": 0.032018880739795134,
+    "k": 1.954968377270556,
+    "cavity": "deep_interior",
+    "r_range": "2-3M",
+    "echo_sign": "negative"
+  },
+  "X-ray": {
+    "n": 1.7579730614425413,
+    "beta": 0.6249229859194171,
+    "Omega": 5.772457770435587,
+    "k": 1.5,
+    "cavity": "accretion_disk",
+    "r_range": "6-10M",
+    "echo_sign": "positive"
+  },
+  "consistency": {
+    "Omega_product": 0.18482763692708076,
+    "Omega_product_expected": 5.107043626055922e-06,
+    "Omega_consistency": 36189.72999182892,
+    "n_separation": 0.34638230966868844,
+    "n_consistency": 0.02784068150946117,
+    "Omega_sum": 5.804476651175381,
+    "golden_equilibrium": 1.0356704087499529,
+    "equilibrium_consistency": 4.604559715268244,
+    "total_consistency": 20894.15052181054,
+    "consistent": false,
+    "phi_laws_validated": false
+  }
+}

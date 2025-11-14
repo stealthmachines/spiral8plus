@@ -1,0 +1,74 @@
+{
+  "modulation_function": {
+    "coefficients": {
+      "a3": -0.017652,
+      "a2": 0.16061200000000003,
+      "a1": -0.315276,
+      "a0": 0.03758499999999998
+    },
+    "equation": "\u0394(P) = -0.017652P\u00b3 + +0.160612P\u00b2 + -0.315276P + +0.037585"
+  },
+  "parameter_effects": [
+    {
+      "parameter": "\u03b1_n",
+      "position": 1,
+      "naive_pred": 0.15000000000000002,
+      "phi_pred": 0.015268999999999977,
+      "actual": 0.015269,
+      "modulation": -0.13473100000000005,
+      "improvement": 99.99999999999997,
+      "impact": "CRITICAL"
+    },
+    {
+      "parameter": "\u03b1_\u03b2",
+      "position": 2,
+      "naive_pred": 0.09999999999999998,
+      "phi_pred": 0.008265000000000189,
+      "actual": 0.008262,
+      "modulation": -0.09173499999999979,
+      "improvement": 99.99672981752362,
+      "impact": "CRITICAL"
+    },
+    {
+      "parameter": "\u03b1_\u03a9",
+      "position": 3,
+      "naive_pred": 0.04999999999999982,
+      "phi_pred": 0.11066100000000034,
+      "actual": 0.110649,
+      "modulation": 0.06066100000000052,
+      "improvement": 99.98021401836742,
+      "impact": "CRITICAL"
+    },
+    {
+      "parameter": "\u03b1_k",
+      "position": 4,
+      "naive_pred": -0.30000000000000027,
+      "phi_pred": -0.08345499999999983,
+      "actual": -0.083485,
+      "modulation": 0.21654500000000043,
+      "improvement": 99.9861441470567,
+      "impact": "CRITICAL"
+    }
+  ],
+  "wave_characteristics": {
+    "amplitude": 0.3512760000000005,
+    "turning_point": 4,
+    "gradients": [
+      0.042996000000000256,
+      0.1523960000000003,
+      0.1558839999999999
+    ]
+  },
+  "coupling_analysis": {
+    "nb_coupling": 0.012359548284999976,
+    "bo_coupling": -0.005564736835000035,
+    "ok_coupling": 0.01313583624500014,
+    "total_coupling": 0.03106012136500015
+  },
+  "phi_relationships": {
+    "delta_a3_phi": "-\u03c6\u00b2/100 + 1/60 = -0.009514",
+    "delta_a2_phi": "\u03c6/10 = 0.161803",
+    "delta_a1_phi": "-\u03c6/5 = -0.323607",
+    "delta_a0_phi": "\u03c6/15 = 0.107869"
+  }
+}

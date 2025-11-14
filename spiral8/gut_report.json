@@ -1,0 +1,132 @@
+{
+  "framework": "Grand Unified Theory - Golden Recursive Framework",
+  "date": "2025-11-04T19:53:05.034231",
+  "phi": 1.618033988749895,
+  "core_equation": "D_{n,\u03b2}(r) = \u221a(\u03c6 \u00b7 F_n \u00b7 2^(n+\u03b2) \u00b7 P_n \u00b7 \u03a9) \u00b7 r^k",
+  "validation": {
+    "micro_scale": {
+      "planck_h": 1.046266715391453e+34,
+      "electron_charge": 1.0,
+      "mass_electron": 162850694304.13126,
+      "mass_proton": 726397629840084.9,
+      "fine_structure": 44.95069888827974
+    },
+    "quantum_relations": {
+      "compton_wavelength_error": 6.424699138443475e+22,
+      "bohr_radius_error": 6.4246991384269264e+22
+    },
+    "timestamp": "2025-11-04T19:53:05.034231"
+  },
+  "cross_scale_consistency": {
+    "planck_length_error": 1.5111294450114314e-08,
+    "planck_time_error": 1.0233001689628717e-07,
+    "planck_mass_error": 1.574676274208942e-07
+  },
+  "scale_parameters": {
+    "micro": {
+      "planck_h": {
+        "name": "Planck constant",
+        "n": -27.0,
+        "beta": 0.4653,
+        "Omega": 1.618033988749895,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "Action quantum"
+      },
+      "electron_charge": {
+        "name": "Elementary charge",
+        "n": -31.0,
+        "beta": 0.6033,
+        "Omega": 1.618033988749895,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "Charge quantum"
+      },
+      "mass_electron": {
+        "name": "Electron mass",
+        "n": -25.0,
+        "beta": 0.5,
+        "Omega": 9.109e-31,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "Lightest lepton"
+      },
+      "mass_proton": {
+        "name": "Proton mass",
+        "n": -21.5,
+        "beta": 0.5,
+        "Omega": 1.672e-27,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "Baryon scale"
+      },
+      "fine_structure": {
+        "name": "Fine structure constant",
+        "n": 1.5,
+        "beta": 0.3,
+        "Omega": 0.0073,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "EM coupling strength"
+      }
+    },
+    "cosmic": {
+      "gravitational_G": {
+        "name": "Gravitational constant",
+        "n": -10.002,
+        "beta": 0.5012,
+        "Omega": 6.6743e-11,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "Gravity coupling"
+      },
+      "hubble_H0": {
+        "name": "Hubble constant",
+        "n": -17.5,
+        "beta": 0.7,
+        "Omega": 2.3e-18,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "Cosmic expansion rate"
+      },
+      "dark_energy_rho": {
+        "name": "Dark energy density",
+        "n": -9.0,
+        "beta": 0.3,
+        "Omega": 6e-10,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "Vacuum energy scale"
+      }
+    },
+    "blackhole": {
+      "schwarzschild_radius": {
+        "name": "Schwarzschild radius",
+        "n": -5.0,
+        "beta": 0.5,
+        "Omega": 1.0,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "Event horizon scale"
+      },
+      "qnm_frequency": {
+        "name": "QNM frequency",
+        "n": 2.0,
+        "beta": 0.5,
+        "Omega": 1.0,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "Ringdown oscillation"
+      },
+      "echo_amplitude": {
+        "name": "Echo amplitude",
+        "n": -7.0,
+        "beta": 0.0,
+        "Omega": 1.0,
+        "base": 2.0,
+        "k": 1.0,
+        "description": "\u03c6-echo reflection strength"
+      }
+    }
+  }
+}

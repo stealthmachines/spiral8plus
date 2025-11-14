@@ -1,0 +1,50 @@
+{
+  "speed_of_light_c": {
+    "value": 299792458,
+    "unit": "m/s",
+    "uncertainty": 0,
+    "relative_uncertainty": 0
+  },
+  "planck_constant_h": {
+    "value": 6.62607015e-34,
+    "unit": "J\u00b7s",
+    "uncertainty": 0,
+    "relative_uncertainty": 0
+  },
+  "gravitational_constant_G": {
+    "value": 6.6743e-11,
+    "unit": "m\u00b3/(kg\u00b7s\u00b2)",
+    "uncertainty": 1.5e-15,
+    "relative_uncertainty": 2.2e-05
+  },
+  "elementary_charge_e": {
+    "value": 1.602176634e-19,
+    "unit": "C",
+    "uncertainty": 0,
+    "relative_uncertainty": 0
+  },
+  "electron_mass_m_e": {
+    "value": 9.1093837015e-31,
+    "unit": "kg",
+    "uncertainty": 2.8e-40,
+    "relative_uncertainty": 3e-10
+  },
+  "fine_structure_alpha": {
+    "value": 0.0072973525693,
+    "unit": "dimensionless",
+    "uncertainty": 1.1e-12,
+    "relative_uncertainty": 1.5e-10
+  },
+  "rydberg_constant_R_inf": {
+    "value": 10973731.56816,
+    "unit": "m\u207b\u00b9",
+    "uncertainty": 2.1e-05,
+    "relative_uncertainty": 1.9e-12
+  },
+  "boltzmann_constant_k": {
+    "value": 1.380649e-23,
+    "unit": "J/K",
+    "uncertainty": 0,
+    "relative_uncertainty": 0
+  }
+}

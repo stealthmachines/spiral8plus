@@ -1,0 +1,109 @@
+{
+  "geometric_constants": {
+    "\u03c6 (Golden Ratio)": 1.618033988749895,
+    "\u03c6\u00b2 (Golden Rectangle)": 2.618033988749895,
+    "1/\u03c6 (Golden Conjugate)": 0.6180339887498948,
+    "\u03c6 - 1 (Fibonacci Base)": 0.6180339887498949,
+    "\u221a\u03c6 (Golden Root)": 1.272019649514069,
+    "\u03c6\u00b3 (Golden Cube)": 4.23606797749979,
+    "Golden Angle (\u00b0)": 137.50776405003785,
+    "Golden Angle (rad)": 2.399963229728653
+  },
+  "parameter_geometry": [
+    {
+      "param": "n",
+      "position": 1,
+      "geometry": "Point (1D)",
+      "significance": "Unity dimension"
+    },
+    {
+      "param": "\u03b2",
+      "position": 2,
+      "geometry": "Line (2D)",
+      "significance": "Planar geometry"
+    },
+    {
+      "param": "\u03a9",
+      "position": 3,
+      "geometry": "Triangle (3D)",
+      "significance": "Spatial geometry"
+    },
+    {
+      "param": "k",
+      "position": 4,
+      "geometry": "Tetrahedron (4D)",
+      "significance": "Spacetime geometry"
+    }
+  ],
+  "spiral_parameters": [
+    {
+      "parameter": "n",
+      "alpha": 0.015269,
+      "growth_rate": 1.0153861667606923,
+      "phi_periods": 31.515608426197122
+    },
+    {
+      "parameter": "\u03b2",
+      "alpha": 0.008262,
+      "growth_rate": 1.0082962245113745,
+      "phi_periods": 58.243987540499475
+    },
+    {
+      "parameter": "\u03a9",
+      "alpha": 0.110649,
+      "growth_rate": 1.1170027700661846,
+      "phi_periods": 4.3489938911296395
+    },
+    {
+      "parameter": "k",
+      "alpha": -0.083485,
+      "growth_rate": 0.9199048851410248,
+      "phi_periods": -5.764051327299553
+    }
+  ],
+  "fibonacci_convergence": [
+    1.6176470588235294,
+    1.6181818181818182,
+    1.6179775280898876
+  ],
+  "pentagonal_relationships": {
+    "pentagon_angle": 108,
+    "diagonal_ratio": 1.618033988749895,
+    "parameter_ratios": [
+      0.01887352194844429,
+      0.014056153957209109,
+      0.3580676856423742,
+      0.08778132379053175
+    ]
+  },
+  "hyperbolic_relationships": {
+    "sinh(ln(\u03c6))": 0.5,
+    "cosh(ln(\u03c6))": 1.118033988749895,
+    "tanh(ln(\u03c6))": 0.4472135954999579
+  },
+  "cubic_geometric_properties": {
+    "max_curvature_position": 3.853535353535354,
+    "max_curvature_value": 0.5256456646513604,
+    "geometric_invariants": {
+      "Discriminant": 0.00037776371079045745,
+      "Inflection point": 2.2695165454581288,
+      "Critical points sum": 6.808549636374386,
+      "Critical points product": 4.509726246082894
+    }
+  },
+  "phi_scaling_interpretation": {
+    "golden_angle_degrees": 137.50776405003785,
+    "scaling_growth_rates": [
+      1.0153861667606923,
+      1.0082962245113745,
+      1.1170027700661846,
+      0.9199048851410248
+    ],
+    "phi_harmonic_ratios": [
+      1.0,
+      0.541096338987491,
+      7.246643526098631,
+      5.467614120112647
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-05T16:42:28.477588",
+  "framework_validated": true,
+  "micro_scale": {
+    "n": -0.5,
+    "beta": 0.4,
+    "Omega": 0.8,
+    "k": 2.0,
+    "h_error_pct": 78.5060597546548,
+    "c_error_pct": 19.42261730647928,
+    "G_error_pct": 19.263113678485862,
+    "total_error_pct": 117.19179073961993,
+    "validation": "FAIL"
+  },
+  "cosmic_scale": {
+    "n": 60.81633673479621,
+    "beta": 0.4654876188674038,
+    "Omega": 0.9095523179478037,
+    "k": 2.0,
+    "rho_predicted": 5.960000000000001e-10,
+    "rho_observed": 5.96e-10,
+    "error_pct": 1.734858667267256e-14,
+    "validation": "PASS"
+  },
+  "ligo_scale": {
+    "n": 1.3654305474965913,
+    "beta": 0.407579353478605,
+    "Omega": 0.14316551288378584,
+    "k": 2.0,
+    "tau_us": 99.99988550773531,
+    "amp_pct": 0.9999057794381887,
+    "f_qnm_Hz": 278.86709344044436,
+    "checks": {
+      "timing_ok": true,
+      "amplitude_ok": true,
+      "qnm_ok": true,
+      "echo_before_ringdown": true
+    },
+    "all_pass": true,
+    "validation": "PASS"
+  },
+  "conclusion": {
+    "span_orders_of_magnitude": 123,
+    "consistency": "needs_refinement"
+  }
+}

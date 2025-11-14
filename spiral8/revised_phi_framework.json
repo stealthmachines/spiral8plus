@@ -1,0 +1,48 @@
+{
+  "equation": "D_{n,\u03b2}(r) = \u221a(\u03c6 \u00b7 F_n \u00b7 2^(n+\u03b2) \u00b7 P_n \u00b7 \u03a9) \u00b7 r^k",
+  "golden_ratio": 1.618033988749895,
+  "validated_parameters": {
+    "micro": {
+      "log_M_range": [
+        -20,
+        -10
+      ],
+      "n": 1.400033,
+      "beta": 0.512254,
+      "Omega": 0.113869,
+      "k": 2.134879,
+      "validation_error": 0.066822,
+      "description": "Atomic/molecular/micro scale physics"
+    },
+    "black_hole": {
+      "log_M_range": [
+        0,
+        2
+      ],
+      "n": 1.636172,
+      "beta": 0.639203,
+      "Omega": 1.939848,
+      "k": 0.781338,
+      "validation_error": 0.087023,
+      "description": "Stellar-mass black holes and compact objects"
+    },
+    "cosmic": {
+      "log_M_range": [
+        1,
+        5
+      ],
+      "n": 1.676307,
+      "beta": 0.662358,
+      "Omega": 2.031371,
+      "k": 0.670294,
+      "validation_error": 0.046862,
+      "description": "Large-scale cosmic structures"
+    }
+  },
+  "scaling_description": {
+    "n": "Complexity parameter - increases with scale",
+    "beta": "Scaling exponent - increases with scale",
+    "Omega": "Coupling parameter - increases with scale",
+    "k": "Power law exponent - decreases with scale"
+  }
+}

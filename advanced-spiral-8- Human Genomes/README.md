@@ -28,10 +28,10 @@ This repository represents a groundbreaking achievement in computational biology
 
 ## 🚀 Quick Start
 
-### 1. Clone or Download the Repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/stealthmachines/spiral8plus.git
+git clone https://github.com/yourusername/human-genome-visualization.git
 cd human-genome-visualization
 ```
 
@@ -41,7 +41,7 @@ cd human-genome-visualization
 # Install Python requirements
 pip install numpy vispy pyqt6
 
-# Optional but perhaps recommended
+# Optional but recommended
 pip install biopython
 
 # For C-engine acceleration (Windows)

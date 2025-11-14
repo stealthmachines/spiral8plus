@@ -1,0 +1,21 @@
+{
+  "scaling_constants": {
+    "alpha_n": 0.015269,
+    "alpha_beta": 0.008262,
+    "alpha_Omega": 0.110649,
+    "alpha_k": -0.083485
+  },
+  "key_relationships": {
+    "omega_to_n_ratio": 7.246643526098631,
+    "k_to_omega_ratio": 0.7545029778850239,
+    "sum_all_alphas": 0.05069499999999999,
+    "conservation_law": false
+  },
+  "physical_interpretation": {
+    "alpha_n": "logarithmic complexity growth rate per mass decade",
+    "alpha_beta": "logarithmic scaling enhancement rate per mass decade",
+    "alpha_Omega": "logarithmic coupling amplification rate per mass decade",
+    "alpha_k": "logarithmic power softening rate per mass decade"
+  },
+  "theoretical_basis": "scaling constants are logarithmic derivatives of framework parameters"
+}

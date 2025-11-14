@@ -1,0 +1,1 @@
+The frozen alphabet is modified for best use with OpenGL (OpenGL-friendly).  The old seal's, etc. are presumed to be incorrect at this time, resulting.  This task must be performed soon.  Consult the two zip's for backup version of the old and new alphabets.

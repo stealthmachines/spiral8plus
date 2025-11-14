@@ -25,9 +25,9 @@ Thank you for your interest in contributing to the Human Genome Visualization Pr
 
 ### Setup Steps
 1. **Fork the repository** on GitHub
-2. **Download or clone your fork**:
+2. **Clone your fork**:
    ```bash
-   git clone https://github.com/stealthmachines/spiral8plus.git
+   git clone https://github.com/yourusername/human-genome-visualization.git
    cd human-genome-visualization
    ```
 3. **Create a virtual environment**:

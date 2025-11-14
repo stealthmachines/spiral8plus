@@ -1,0 +1,22 @@
+{
+  "scaling_constants": {
+    "alpha_n": 0.015269,
+    "alpha_\u03b2": 0.008262,
+    "alpha_\u03a9": 0.110649,
+    "alpha_k": -0.083485
+  },
+  "best_fit_equation": "\u03b1(P) = -0.067652P\u00b3 + 0.460612P\u00b2 + -0.915276P + 0.537585",
+  "coefficients": {
+    "cubic": -0.06765249999999985,
+    "quadratic": 0.4606120000000002,
+    "linear": -0.9152755000000053,
+    "constant": 0.5375850000000084
+  },
+  "r_squared": 1.0,
+  "parameter_mapping": {
+    "n": 1,
+    "beta": 2,
+    "Omega": 3,
+    "k": 4
+  }
+}

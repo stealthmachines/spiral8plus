@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-05T17:09:01.161048",
+  "framework": "Pure \u03c6-Framework (no modifications)",
+  "formulas": {
+    "micro": "scale_factor^2 \u00d7 1e-34, scale_factor \u00d7 3e8, scale_factor \u00d7 6.67e-11",
+    "cosmic": "\u03c1_Planck \u00d7 \u03c6^(-7n) \u00d7 (scale_base)^(-k/2)"
+  },
+  "unified_params": {
+    "n": 45.87204849469393,
+    "beta": 0.3000000000002791,
+    "Omega": 0.5000000000000707,
+    "k": 2.499999999999986
+  },
+  "micro": {
+    "h_pred": 1.1855022508078126e-09,
+    "c_pred": 1.0329336986114022e+21,
+    "G_pred": 229.65559232460177,
+    "h_error_pct": 1.789148354862818e+26,
+    "c_error_pct": 344549594576893.06,
+    "G_error_pct": 344089406116798.8,
+    "total_error_pct": 1.7891483548697043e+26,
+    "pass": false
+  },
+  "cosmic": {
+    "rho_pred": 262112043489448.62,
+    "rho_error_pct": 4.397853078682024e+25,
+    "pass": false
+  },
+  "unified_success": false,
+  "conclusion": "SCALE-DEPENDENT - Framework valid but needs parameter evolution"
+}

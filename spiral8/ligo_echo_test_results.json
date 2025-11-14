@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-11-05",
+  "parameters": {
+    "n": 1.3654305474965913,
+    "beta": 0.407579353478605,
+    "Omega": 0.14316551288378584,
+    "k": 2.0
+  },
+  "events": [
+    {
+      "event": "GW150914",
+      "mass": 65,
+      "predicted_tau": 99.99988550773531,
+      "predicted_amp": 0.9999057794381887,
+      "echo_found": null,
+      "detection": "NOT DETECTED",
+      "data_source": "Simulated"
+    },
+    {
+      "event": "GW170814",
+      "mass": 56,
+      "predicted_tau": 86.15374751435658,
+      "predicted_amp": 0.9999057794381887,
+      "echo_found": null,
+      "detection": "NOT DETECTED",
+      "data_source": "Simulated"
+    },
+    {
+      "event": "GW151226",
+      "mass": 22,
+      "predicted_tau": 33.84611509492579,
+      "predicted_amp": 0.9999057794381887,
+      "echo_found": null,
+      "detection": "NOT DETECTED",
+      "data_source": "Simulated"
+    }
+  ]
+}

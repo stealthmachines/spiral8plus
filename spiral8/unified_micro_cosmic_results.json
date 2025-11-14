@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-11-05T17:04:05.959131",
+  "framework": "Unified Micro-Cosmic \u03c6-Framework",
+  "goal": "Find single parameter set for quantum + cosmic scales",
+  "results": [
+    {
+      "label": "Equal weighting",
+      "weights": [
+        1.0,
+        1.0
+      ],
+      "params": {
+        "n": 50.86501220430883,
+        "beta": 0.300000000012403,
+        "Omega": 0.5000000000034657,
+        "k": 1.5000000000008724
+      },
+      "micro": {
+        "h_error_pct": 4.089692879622541e+29,
+        "c_error_pct": 2364874207688.684,
+        "G_error_pct": 5.592630814810443e+22,
+        "total_error_pct": 4.089693438885623e+29,
+        "pass": false
+      },
+      "cosmic": {
+        "rho_pred": 5.116521916419307e+17,
+        "rho_error_pct": 8.584768316139776e+28,
+        "pass": false
+      },
+      "unified_success": false
+    },
+    {
+      "label": "Cosmic priority (10x)",
+      "weights": [
+        1.0,
+        10.0
+      ],
+      "params": {
+        "n": 51.31141729083864,
+        "beta": 0.30000000001025817,
+        "Omega": 0.5000000000030879,
+        "k": 1.5000000000000866
+      },
+      "micro": {
+        "h_error_pct": 6.0979725388236155e+29,
+        "c_error_pct": 2887722316707.871,
+        "G_error_pct": 8.338941366091145e+22,
+        "total_error_pct": 6.097973372717752e+29,
+        "pass": false
+      },
+      "cosmic": {
+        "rho_pred": 7.628305025920619e+16,
+        "rho_error_pct": 1.279916950657822e+28,
+        "pass": false
+      },
+      "unified_success": false
+    },
+    {
+      "label": "Micro priority (10x)",
+      "weights": [
+        10.0,
+        1.0
+      ],
+      "params": {
+        "n": 50.41862417129381,
+        "beta": 0.30000000000611005,
+        "Omega": 0.5000000000035658,
+        "k": 1.5000000000000462
+      },
+      "micro": {
+        "h_error_pct": 2.7427064583508198e+29,
+        "c_error_pct": 1936655446721.373,
+        "G_error_pct": 3.75063485362943e+22,
+        "total_error_pct": 2.7427068334143055e+29,
+        "pass": false
+      },
+      "cosmic": {
+        "rho_pred": 3.43173130560251e+18,
+        "rho_error_pct": 5.757938432218977e+29,
+        "pass": false
+      },
+      "unified_success": false
+    },
+    {
+      "label": "Cosmic priority (100x)",
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "params": {
+        "n": 51.75784507610269,
+        "beta": 0.3000000000105698,
+        "Omega": 0.5000000000012741,
+        "k": 1.5000000000001092
+      },
+      "micro": {
+        "h_error_pct": 9.09214209045193e+29,
+        "c_error_pct": 3526109575895.8457,
+        "G_error_pct": 1.243345051190974e+23,
+        "total_error_pct": 9.092143333796983e+29,
+        "pass": false
+      },
+      "cosmic": {
+        "rho_pred": 1.1372660504777806e+16,
+        "rho_error_pct": 1.9081645142244641e+27,
+        "pass": false
+      },
+      "unified_success": false
+    }
+  ],
+  "best_result": {
+    "label": "Equal weighting",
+    "weights": [
+      1.0,
+      1.0
+    ],
+    "params": {
+      "n": 50.86501220430883,
+      "beta": 0.300000000012403,
+      "Omega": 0.5000000000034657,
+      "k": 1.5000000000008724
+    },
+    "micro": {
+      "h_error_pct": 4.089692879622541e+29,
+      "c_error_pct": 2364874207688.684,
+      "G_error_pct": 5.592630814810443e+22,
+      "total_error_pct": 4.089693438885623e+29,
+      "pass": false
+    },
+    "cosmic": {
+      "rho_pred": 5.116521916419307e+17,
+      "rho_error_pct": 8.584768316139776e+28,
+      "pass": false
+    },
+    "unified_success": false
+  }
+}

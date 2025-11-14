@@ -1,0 +1,26 @@
+# Python Dependencies for Grand Unified Theory Testing
+# ====================================================
+
+# Core scientific computing
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+matplotlib>=3.7.0,<4.0.0
+
+# Data acquisition
+gwosc>=0.7.0  # LIGO gravitational wave data
+astropy>=5.2.0  # Astronomical data handling
+requests>=2.31.0  # HTTP downloads
+
+# High-performance computing
+numba>=0.57.0  # JIT compilation
+h5py>=3.8.0  # HDF5 data format
+
+# Optional but recommended
+tqdm>=4.65.0  # Progress bars
+joblib>=1.2.0  # Parallel processing
+seaborn>=0.12.0  # Statistical visualization
+
+# Testing and validation
+pytest>=7.3.0
+pytest-cov>=4.1.0

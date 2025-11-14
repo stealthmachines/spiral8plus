@@ -1,0 +1,22 @@
+# Human Genome Visualization - Python Requirements
+
+# Core dependencies (required)
+numpy>=1.21.0          # High-performance numerical computing
+vispy>=0.12.0          # OpenGL visualization framework
+pyqt6>=6.0.0           # GUI backend for vispy
+
+# Optional but recommended
+biopython>=1.79        # FASTA file parsing and bioinformatics tools
+requests>=2.25.0       # HTTP requests for genome downloading
+
+# Development dependencies
+pytest>=6.0.0          # Testing framework
+black>=21.0.0          # Code formatting
+flake8>=3.9.0          # Linting
+mypy>=0.800            # Type checking
+
+# Build dependencies (for C engines)
+# These are typically installed via system package managers
+# Windows: Visual Studio Build Tools
+# Linux: build-essential, gcc
+# macOS: Xcode Command Line Tools

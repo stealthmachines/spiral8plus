@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-11-05",
+  "events_analyzed": 0,
+  "results": [
+    null,
+    null,
+    null
+  ],
+  "tuned_parameters": {
+    "n": 1.5,
+    "beta": 0.4791024135619142,
+    "Omega": 0.11598680739887358,
+    "k": 2.0
+  }
+}
